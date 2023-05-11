@@ -1,0 +1,17 @@
+ SEU==>                                                                IDDS1005 
+ FMT D  DName+++++++++++ETDsFrom+++To/L+++IDc.Keywords+++++++++++++++++++++++++ 
+        *************** Beginning of data ************************************* 
+0001.00 DMAT              DS                  OCCURS(3)                         
+0002.00 D NUM                            3  0                    
+0014.00 C     1             OCCUR     MAT                                       
+0015.00 C                   move      '101'         NUM                         
+0016.00 C     2             OCCUR     MAT                                       
+0017.00 C                   move      '010'         NUM                         
+0018.00 C     3             OCCUR     MAT                                       
+0019.00 C                   move      '101'         NUM                         
+0020.00 C     1             DO        3             R                 1 0       
+0021.00 C     R             OCCUR     MAT                                       
+0022.00 C     NUM           DSPLY                                               
+0023.00 C                   ENDDO                                               
+0024.00 C                   SETON                                        LR     
+        ****************** End of data **************************************** 
