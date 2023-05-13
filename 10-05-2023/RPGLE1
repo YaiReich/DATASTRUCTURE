@@ -8,12 +8,4 @@
 0004.00 C     1             DO        3             I                 1 0       
 0005.00 C     I             OCCUR     MAT                                       
 0006.00 C                   Z-ADD     123           NUM                         
-0007.00 C                   ENDDO                                               
-0008.00 C     1             DO        3             J                 1 0       
-0009.00 C     J             IFGT      1                                         
-0010.00 C                   ADD       333           NUM                         
-0011.00 C                   ENDIF                                               
-0012.00 C     MAT           DSPLY                                               
-0013.00 C                   ENDDO       
-0024.00 C                   SETON                                        LR     
-        ****************** End of data **************************************** 
+
