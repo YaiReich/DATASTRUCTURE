@@ -1,0 +1,21 @@
+        *************** Beginning of data ************************************* 
+0001.00 DMYSTRCT          DS                  OCCURS(3)                         
+0002.00 DMYARR                           1  0 DIM(3) INZ(0)                     
+0003.00 C                   SETON                                        42     
+0004.00 C     1             DO        3             I                 2 0       
+0005.00 C     I             OCCUR     MYSTRCT                                   
+0006.00 C     1             DO        3             J                 2 0       
+0007.00 C     *IN42         IFEQ      *ON                                       
+0008.00 C                   ADD       1             MYARR(J)                    
+0009.00 C                   SETOFF                                       42     
+0010.00 C                   ELSE                                                
+0011.00 C                   SETON                                        42     
+0012.00 C                   ENDIF                                               
+0013.00 C                   ENDDO                                               
+0014.00 C                   ENDDO                                               
+0015.00 C     1             DO        3             I                           
+0016.00 C     I             OCCUR     MYSTRCT                                   
+0017.00 C     MYSTRCT       DSPLY                                              
+0018.00 C                   ENDDO                                              
+0019.00 C                   SETON                                        LR    
+        ****************** End of data ****************************************
