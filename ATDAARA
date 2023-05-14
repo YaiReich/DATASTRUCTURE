@@ -1,0 +1,22 @@
+ Columns . . . :    6  76           Browse                    JBLTD11/QRPGLESRC 
+ SEU==>                                                                 ADTAARA 
+ FMT D  DName+++++++++++ETDsFrom+++To/L+++IDc.Keywords+++++++++++++++++++++++++ 
+        *************** Beginning of data ************************************* 
+0001.10 D TESTDTA        UDS                                                    
+0001.11 D PP1                            5                                      
+0001.12 D PP2                            3  0                                   
+0001.13 D PP3                           22                                      
+0002.00 C*                                                                      
+0002.01 C     TESTDTA       DSPLY                                               
+0003.00 C     PP1           DSPLY                                               
+0004.00 C*    PP2           DSPLY                                               
+0005.00 C     PP3           DSPLY                                               
+0006.00 C                   MOVE      'A'           PP1                         
+0007.00 C                   Z-ADD     1             PP2                         
+0008.00 C                   MOVE      'ZXCVB'       PP3                         
+0009.00 C     PP1           DSPLY                                               
+0010.00 C     PP2           DSPLY                                               
+0011.00 C     PP3           DSPLY                                               
+0011.01 C     TESTDTA       DSPLY      
+0012.00 C                   SETON                                        LR     
+        ****************** End of data **************************************** 
